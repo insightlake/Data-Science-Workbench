@@ -1,6 +1,6 @@
 # Data-Science-Workbench
 Next Generation Data Science Workbench - AI, Big Data & GPU Cluster
-<img style="width:100%;" src="ds.jpeg">
+<img style="width:100%;" src="images/ds.jpeg">
 
 Data science is an exploratory work, where data scientists perform many steps while building models. Few of those steps are:
 
@@ -24,11 +24,11 @@ Model & notebook building and visualization
 Compute resource allocation
 Monitoring, devops etc
 
-Data Exploration
+## Data Exploration
 
-Data Profiles
+## Data Profiles
 
-Notebook
+## Notebook
 As you see from model building steps, it is a long exploratory work. Just like a Pharma scientist, who will break down compound building in multiple steps, produce analysis, data scientists will also need to break down exploratory work in steps and produce evidence/analysis to prove hypothesis. We can call this data story building, which can tell us what do we need to do with data to get to the right model output.
 
 To create data stories data scientists rely on notebooks or BI visual tools. Few of the popular notebooks are:
@@ -53,13 +53,13 @@ Workbench allows them to import/export their existing notebooks (InsightLake, Ju
 
 Data science workbench also integrates with model governance framework allowing regulated industry (Financials, Insurance..) to validate, govern and monitor models.
 
-Integrated & Flexible Notebook Solution
+## Integrated & Flexible Notebook Solution
 InsightLake data science workbench provides flexibility and interoperability with other industry popular notebooks like Conda Jupyter, H2O and Zeppelin. Users can import these notebooks seamlessly and export new notebook in given format (with few restrictions).
 
-Power of AI & Big Data
+## Power of AI & Big Data
 InsightLake Data Science Workbench enables companies to use power of Hadoop so large amount of data can be used in training and validation instead of small sample set. This increases model precision and outcome.
 
-Languages/Engines Supported
+## Languages/Engines Supported
 Markdown - for HTML
 Python
 R
@@ -118,15 +118,15 @@ Text
 
 Users can perform text classification, summarization and extract entities.
 
-Classification
+## Classification
 
-Entity Extraction
+## Entity Extraction
 
-Model Training
+## Model Training
 
-Model Services
+## Model Services
 
-GPU Cluster
+## GPU Cluster
 InsightLake workbench allows data scientists to build and run models on GPU clusters. AWS AMIs could be used to setup a cluster very easily. With the power of GPUs complex multi layer/high compute deep learning models can be effectively run on GPU clusters. Two options are provided:
 
 CUDA - with Caffe & Tensorflow
