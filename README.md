@@ -25,10 +25,26 @@ Compute resource allocation
 Monitoring, devops etc
 
 ## Data Exploration
+ Data
+
+<img style="width:100%;" src="images/data-tab/explore-data.png">
+
+Data Profile
+
+<img style="width:100%;" src="images/data-tab/data-profile-view.png">
+
+Pivot Table
+
+<img style="width:100%;" src="images/data-tab/pivot-table-view.png">
 
 ## Data Profiles
 
+<img style="width:100%;" src="images/data-profile-tab/data-profile.png">
+
 ## Notebook
+
+<img style="width:100%;" src="images/Notebook/After adding notebook.png">
+
 As you see from model building steps, it is a long exploratory work. Just like a Pharma scientist, who will break down compound building in multiple steps, produce analysis, data scientists will also need to break down exploratory work in steps and produce evidence/analysis to prove hypothesis. We can call this data story building, which can tell us what do we need to do with data to get to the right model output.
 
 To create data stories data scientists rely on notebooks or BI visual tools. Few of the popular notebooks are:
@@ -98,6 +114,9 @@ Classification
 
 Users can build classification use cases like identifying a transaction as fraud or not fraud.
 
+<img style="width:100%;" src="images/classify/data-classification/data-profile.png">
+
+
 Prediction
 
 Users can build prediction models utilizing varients of time series models. They can predict values, score transactions.
@@ -106,17 +125,30 @@ Voice
 
 Users can build new acoustic or language models or adapt with new data for speech recognition.
 
+<img style="width:100%;" src="images/classify/voice-classification/voice-classification.png">
+
+
 Images
 
 Workbench allows users to classify images and extract text.
+
+<img style="width:100%;" src="images/classify/image/image classification.png">
 
 Video
 
 Users can perform video classification and extract relevant information.
 
+<img style="width:100%;" src="images/classify/video/video classification.png">
+
+Playing Video
+
+<img style="width:100%;" src="images/classify/video/Playing video.png">
+
 Text
 
 Users can perform text classification, summarization and extract entities.
+
+<img style="width:100%;" src="images/classify/text-classification/text-profile.png">
 
 ## Classification
 
