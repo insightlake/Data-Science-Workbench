@@ -35,7 +35,7 @@ Data Profile
 
 Pivot Table
 
-<img style="width:100%;" src="images/data-tab/pivot-table-view.png">
+<img style="width:100%;" src="images/data-tab/pivot-data.png">
 
 ## Data Profiles
 
@@ -43,7 +43,7 @@ Pivot Table
 
 ## Notebook
 
-<img style="width:100%;" src="images/Notebook/After adding notebook.png">
+<img style="width:100%;" src="images/Notebook/adding-notebook.png">
 
 As you see from model building steps, it is a long exploratory work. Just like a Pharma scientist, who will break down compound building in multiple steps, produce analysis, data scientists will also need to break down exploratory work in steps and produce evidence/analysis to prove hypothesis. We can call this data story building, which can tell us what do we need to do with data to get to the right model output.
 
@@ -132,17 +132,17 @@ Images
 
 Workbench allows users to classify images and extract text.
 
-<img style="width:100%;" src="images/classify/image/image classification.png">
+<img style="width:100%;" src="images/classify/image/image-classification.png">
 
 Video
 
 Users can perform video classification and extract relevant information.
 
-<img style="width:100%;" src="images/classify/video/video classification.png">
+<img style="width:100%;" src="images/classify/video/video-classification.png">
 
 Playing Video
 
-<img style="width:100%;" src="images/classify/video/Playing video.png">
+<img style="width:100%;" src="images/classify/video/playing-video.png">
 
 Text
 
