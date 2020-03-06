@@ -150,6 +150,30 @@ Users can perform text classification, summarization and extract entities.
 
 <img style="width:100%;" src="images/classify/text-classification/text-profile.png">
 
+
+## Document
+
+Documents list & HTML View
+
+<img style="width:100%;" src="images/documents/document.png">
+
+RAW Data View
+
+<img style="width:100%;" src="images/documents/raw-data-view.png">
+
+Document Search
+
+<img style="width:100%;" src="images/documents/document-search.png">
+
+Document Review
+
+<img style="width:100%;" src="images/documents/doc-review-page.png">
+
+Text Highligting
+
+<img style="width:100%;" src="images/documents/text-search-highlight.png">
+
+
 ## Classification
 
 ## Entity Extraction
