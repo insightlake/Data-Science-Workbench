@@ -1,81 +1,81 @@
-2020-04-21 14:54:28.145  INFO 28334 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 28334 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
-2020-04-21 14:54:28.164  INFO 28334 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
-2020-04-21 14:54:28.529  INFO 28334 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Tue Apr 21 14:54:28 IST 2020]; root of context hierarchy
-2020-04-21 14:54:32.744  INFO 28334 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-21 14:54:32.779  INFO 28334 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-21 14:54:32.779  INFO 28334 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
-2020-04-21 14:54:32.800  INFO 28334 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
-2020-04-21 14:54:33.368  INFO 28334 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-21 14:54:33.369  INFO 28334 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4840 ms
-2020-04-21 14:54:33.627  INFO 28334 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-04-21 14:54:33.633  INFO 28334 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-04-21 14:54:33.633  INFO 28334 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-04-21 14:54:33.634  INFO 28334 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2020-04-21 14:54:33.634  INFO 28334 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-04-21 14:54:33.871  INFO 28334 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 14:54:34.294  INFO 28334 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Tue Apr 21 14:54:28 IST 2020]; root of context hierarchy
-2020-04-21 14:54:34.433  INFO 28334 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-04-21 14:54:34.435  INFO 28334 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-04-21 14:54:34.468  INFO 28334 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 14:54:34.468  INFO 28334 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 14:54:34.559  INFO 28334 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-04-21 14:54:34.700  INFO 28334 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2020-04-21 14:54:34.745  INFO 28334 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-21 14:54:34.750  INFO 28334 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 8.238 seconds (JVM running for 10.712)
-2020-04-21 14:55:05.089  INFO 28334 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2020-04-21 14:55:05.090  INFO 28334 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2020-04-21 14:55:05.119  INFO 28334 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
-2020-04-21 16:21:00.836  INFO 15760 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 15760 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
-2020-04-21 16:21:00.850  INFO 15760 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
-2020-04-21 16:21:01.068  INFO 15760 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Tue Apr 21 16:21:01 IST 2020]; root of context hierarchy
-2020-04-21 16:21:04.928  INFO 15760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-21 16:21:05.014  INFO 15760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-21 16:21:05.015  INFO 15760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
-2020-04-21 16:21:05.035  INFO 15760 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
-2020-04-21 16:21:05.385  INFO 15760 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-21 16:21:05.386  INFO 15760 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4318 ms
-2020-04-21 16:21:05.647  INFO 15760 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-04-21 16:21:05.652  INFO 15760 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-04-21 16:21:05.652  INFO 15760 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-04-21 16:21:05.653  INFO 15760 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2020-04-21 16:21:05.653  INFO 15760 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-04-21 16:21:05.842  INFO 15760 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 16:21:06.448  INFO 15760 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Tue Apr 21 16:21:01 IST 2020]; root of context hierarchy
-2020-04-21 16:21:06.557  INFO 15760 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-04-21 16:21:06.560  INFO 15760 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-04-21 16:21:06.631  INFO 15760 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 16:21:06.632  INFO 15760 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 16:21:06.778  INFO 15760 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-04-21 16:21:07.056  INFO 15760 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2020-04-21 16:21:07.148  INFO 15760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-21 16:21:07.180  INFO 15760 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 7.692 seconds (JVM running for 10.096)
-2020-04-21 16:34:14.630  INFO 15760 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2020-04-21 16:34:14.665  INFO 15760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2020-04-21 16:34:14.860  INFO 15760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 192 ms
-2020-04-21 17:39:44.988  INFO 1166 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 1166 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
-2020-04-21 17:39:45.014  INFO 1166 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
-2020-04-21 17:39:45.190  INFO 1166 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a098129: startup date [Tue Apr 21 17:39:45 IST 2020]; root of context hierarchy
-2020-04-21 17:39:48.193  INFO 1166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-21 17:39:48.245  INFO 1166 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-21 17:39:48.245  INFO 1166 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
-2020-04-21 17:39:48.264  INFO 1166 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
-2020-04-21 17:39:48.403  INFO 1166 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-21 17:39:48.403  INFO 1166 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3213 ms
-2020-04-21 17:39:48.585  INFO 1166 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-04-21 17:39:48.592  INFO 1166 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-04-21 17:39:48.593  INFO 1166 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-04-21 17:39:48.593  INFO 1166 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2020-04-21 17:39:48.593  INFO 1166 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-04-21 17:39:48.789  INFO 1166 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 17:39:49.365  INFO 1166 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a098129: startup date [Tue Apr 21 17:39:45 IST 2020]; root of context hierarchy
-2020-04-21 17:39:49.638  INFO 1166 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-04-21 17:39:49.639  INFO 1166 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-04-21 17:39:49.705  INFO 1166 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 17:39:49.705  INFO 1166 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-21 17:39:49.822  INFO 1166 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-04-21 17:39:50.116  INFO 1166 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2020-04-21 17:39:50.300  INFO 1166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-21 17:39:50.305  INFO 1166 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 6.781 seconds (JVM running for 8.149)
-2020-04-21 17:40:32.361  INFO 1166 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2020-04-21 17:40:32.362  INFO 1166 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2020-04-21 17:40:32.539  INFO 1166 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 177 ms
+2020-04-22 21:11:35.414  INFO 20731 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 20731 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
+2020-04-22 21:11:35.493  INFO 20731 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
+2020-04-22 21:11:35.813  INFO 20731 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Wed Apr 22 21:11:35 IST 2020]; root of context hierarchy
+2020-04-22 21:11:39.709  INFO 20731 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-22 21:11:39.801  INFO 20731 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-22 21:11:39.801  INFO 20731 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-04-22 21:11:39.855  INFO 20731 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-04-22 21:11:40.074  INFO 20731 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-22 21:11:40.075  INFO 20731 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4262 ms
+2020-04-22 21:11:40.252  INFO 20731 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-04-22 21:11:40.258  INFO 20731 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-22 21:11:40.259  INFO 20731 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-22 21:11:40.260  INFO 20731 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-22 21:11:40.262  INFO 20731 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-22 21:11:40.545  INFO 20731 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:11:41.012  INFO 20731 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Wed Apr 22 21:11:35 IST 2020]; root of context hierarchy
+2020-04-22 21:11:41.126  INFO 20731 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-22 21:11:41.133  INFO 20731 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-22 21:11:41.170  INFO 20731 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:11:41.170  INFO 20731 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:11:41.268  INFO 20731 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-22 21:11:41.454  INFO 20731 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-04-22 21:11:41.570  INFO 20731 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-22 21:11:41.577  INFO 20731 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 7.795 seconds (JVM running for 9.688)
+2020-04-22 21:12:13.518  INFO 20731 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-22 21:12:13.519  INFO 20731 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-22 21:12:13.547  INFO 20731 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2020-04-22 21:16:57.502  INFO 22105 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 22105 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
+2020-04-22 21:16:57.552  INFO 22105 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
+2020-04-22 21:16:58.122  INFO 22105 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Wed Apr 22 21:16:58 IST 2020]; root of context hierarchy
+2020-04-22 21:17:02.807  INFO 22105 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-22 21:17:02.921  INFO 22105 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-22 21:17:02.922  INFO 22105 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-04-22 21:17:03.025  INFO 22105 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-04-22 21:17:03.353  INFO 22105 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-22 21:17:03.353  INFO 22105 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5231 ms
+2020-04-22 21:17:03.578  INFO 22105 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-04-22 21:17:03.583  INFO 22105 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-22 21:17:03.584  INFO 22105 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-22 21:17:03.584  INFO 22105 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-22 21:17:03.584  INFO 22105 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-22 21:17:03.854  INFO 22105 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:17:04.404  INFO 22105 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27ddd392: startup date [Wed Apr 22 21:16:58 IST 2020]; root of context hierarchy
+2020-04-22 21:17:04.554  INFO 22105 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-22 21:17:04.556  INFO 22105 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-22 21:17:04.592  INFO 22105 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:17:04.592  INFO 22105 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:17:04.656  INFO 22105 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-22 21:17:04.786  INFO 22105 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-04-22 21:17:04.871  INFO 22105 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-22 21:17:04.879  INFO 22105 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 9.316 seconds (JVM running for 13.35)
+2020-04-22 21:17:15.290  INFO 22105 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-22 21:17:15.290  INFO 22105 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-22 21:17:15.318  INFO 22105 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2020-04-22 21:54:35.344  INFO 30282 --- [main] c.i.edp.zookeeper.ui.Application         : Starting Application v1.0 on root with PID 30282 (/home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/libs/edp-datascience-ui-1.0.jar started by root in /home/sai/EDP-DATA-MODULES/GITREPOSITROYDEPLOYMENT/datascience/Data-Science-Workbench/logs)
+2020-04-22 21:54:35.382  INFO 30282 --- [main] c.i.edp.zookeeper.ui.Application         : No active profile set, falling back to default profiles: default
+2020-04-22 21:54:35.860  INFO 30282 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a3046da: startup date [Wed Apr 22 21:54:35 IST 2020]; root of context hierarchy
+2020-04-22 21:54:42.491  INFO 30282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-22 21:54:42.876  INFO 30282 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-22 21:54:42.877  INFO 30282 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-04-22 21:54:42.937  INFO 30282 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-04-22 21:54:43.375  INFO 30282 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-22 21:54:43.376  INFO 30282 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7516 ms
+2020-04-22 21:54:43.958  INFO 30282 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-04-22 21:54:43.970  INFO 30282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-22 21:54:43.976  INFO 30282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-22 21:54:43.979  INFO 30282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-22 21:54:43.984  INFO 30282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-22 21:54:44.726  INFO 30282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:54:45.716  INFO 30282 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a3046da: startup date [Wed Apr 22 21:54:35 IST 2020]; root of context hierarchy
+2020-04-22 21:54:46.040  INFO 30282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-22 21:54:46.043  INFO 30282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-22 21:54:46.094  INFO 30282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:54:46.094  INFO 30282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-22 21:54:46.240  INFO 30282 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-22 21:54:46.613  INFO 30282 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-04-22 21:54:47.073  INFO 30282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-22 21:54:47.082  INFO 30282 --- [main] c.i.edp.zookeeper.ui.Application         : Started Application in 13.527 seconds (JVM running for 15.219)
+2020-04-22 21:55:01.547  INFO 30282 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-22 21:55:01.548  INFO 30282 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-22 21:55:01.922  INFO 30282 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 373 ms
