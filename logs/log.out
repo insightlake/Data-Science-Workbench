@@ -1,0 +1,21 @@
+2020-04-23-http-nio-9494-exec-2--DEBUG-com.insightlake.edp.common.controller.AbstractRestClient:Received response  <200,com.insightlake.edp.notebook.zeppelin.rest.model.ZeppelinCreateNoteResponse@31973632,{Date=[Thursday, April 23, 2020 9:04:38 AM UTC], Access-Control-Allow-Credentials=[true], Access-Control-Allow-Headers=[authorization,Content-Type], Access-Control-Allow-Methods=[POST, GET, OPTIONS, PUT, HEAD, DELETE], X-FRAME-OPTIONS=[SAMEORIGIN], X-XSS-Protection=[1], Content-Type=[application/json], Content-Length=[47], Server=[Jetty(9.4.14.v20181114)]}>
+2020-04-23-http-nio-9494-exec-2--DEBUG-com.insightlake.edp.common.controller.AbstractRestClient:Received response  <200,com.insightlake.edp.notebook.zeppelin.rest.model.ZeppelinCreateNoteResponse@134b10b3,{Date=[Thursday, April 23, 2020 10:01:41 AM UTC], Access-Control-Allow-Credentials=[true], Access-Control-Allow-Headers=[authorization,Content-Type], Access-Control-Allow-Methods=[POST, GET, OPTIONS, PUT, HEAD, DELETE], X-FRAME-OPTIONS=[SAMEORIGIN], X-XSS-Protection=[1], Content-Type=[application/json], Content-Length=[47], Server=[Jetty(9.4.14.v20181114)]}>
+2020-04-23-http-nio-9494-exec-4--DEBUG-com.insightlake.edp.common.controller.AbstractRestClient:Received response  <200,com.insightlake.edp.notebook.zeppelin.rest.model.ZeppelinCreateParagraphResponse@7179ea82,{Date=[Thursday, April 23, 2020 10:01:55 AM UTC], Access-Control-Allow-Credentials=[true], Access-Control-Allow-Headers=[authorization,Content-Type], Access-Control-Allow-Methods=[POST, GET, OPTIONS, PUT, HEAD, DELETE], X-FRAME-OPTIONS=[SAMEORIGIN], X-XSS-Protection=[1], Content-Type=[application/json], Content-Length=[64], Server=[Jetty(9.4.14.v20181114)]}>
+2020-04-23-http-nio-9494-exec-4--DEBUG-com.insightlake.edp.common.controller.AbstractRestClient:Received response  <200,com.insightlake.edp.notebook.zeppelin.rest.model.ZeppelinRunParagraphResponse@663ae25a,{Date=[Thursday, April 23, 2020 10:01:56 AM UTC], Access-Control-Allow-Credentials=[true], Access-Control-Allow-Headers=[authorization,Content-Type], Access-Control-Allow-Methods=[POST, GET, OPTIONS, PUT, HEAD, DELETE], X-FRAME-OPTIONS=[SAMEORIGIN], X-XSS-Protection=[1], Content-Type=[application/json], Content-Length=[312], Server=[Jetty(9.4.14.v20181114)]}>
+2020-04-23-http-nio-9494-exec-4--DEBUG-com.insightlake.edp.notebook.impl.ZeppelinNotebook:Result of run =  TEXT:
+V1
+1:  1
+2:  2
+3:  3
+[1] 2
+[1] 4
+[1] 6
+[1] 8
+[1] 10
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+[24] 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+[47] 47 48 49 50
+
+
+
+
