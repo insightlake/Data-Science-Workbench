@@ -29,10 +29,13 @@
 		<module>edp-cluster-verification</module>
 		<module>edp-kafka</module>
 		<module>edp-api-data</module>
+		<module>edp-notebook</module>
+		<module>edp-cloud-lake</module>
 		<module>edp-catalog</module>
 		<module>edp-security</module>
 		<module>edp-query</module>
 		<module>edp-kconnect</module>
+		<module>edp-kafkarest-mon</module>
 		<module>edp-kafka-perf</module>
 		<module>edp-mockdata</module>
 		<module>edp-io</module>
