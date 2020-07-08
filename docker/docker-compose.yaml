@@ -1,0 +1,16 @@
+version: "2.0"
+
+services:
+  datascience-backend-service:
+    build:
+      context: ../libs
+      dockerfile: ./datasciencebacked
+    ports:
+    - 9494:9494
+
+  datascience-ui-service:
+    build:
+      context: ../libs
+      dockerfile: ./datascienceui
+    ports:
+    - 8080:8080
