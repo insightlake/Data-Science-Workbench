@@ -10,6 +10,7 @@ EXPOSE 9494
 # Add the application's jar to the container
 WORKDIR /usr
 ADD thin /usr/thin
+ADD h2.properties /usr/h2.properties
 
 # Run the jar file -jar 
-ENTRYPOINT ["java","-Dthin.root=/usr/thin/root/","-jar","/usr/thin/root/edp-datascience-0.0.1-SNAPSHOT.jar","--spring.config.location=./conf/h2.properties"]
+ENTRYPOINT ["java","-Dthin.root=/usr/thin/root/","-jar","/usr/thin/root/edp-datascience-0.0.1-SNAPSHOT.jar","--spring.config.location=/usr/h2.properties"]
