@@ -267,7 +267,7 @@
 	</dependencies>
 
 
-	<build>
+	<!-- <build>
 
 		<resources>
 			<resource>
@@ -310,8 +310,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<executions>
 					<execution>
-						<!-- Spring Boot Actuator displays build-related information if a META-INF/build-info.properties 
-							file is present -->
+						Spring Boot Actuator displays build-related information if a META-INF/build-info.properties 
+							file is present
 						<goals>
 							<goal>build-info</goal>
 						</goals>
@@ -348,5 +348,5 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
 </project>
