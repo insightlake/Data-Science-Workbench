@@ -188,7 +188,7 @@ InsightLake workbench allows data scientists to build and run models on GPU clus
 CUDA - with Caffe & Tensorflow
 OpenCL - with Torch
 
-To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
+To learn more, check out [http://www.insightlake.com/data-science-workbench.html](http://www.insightlake.com/data-science-workbench.html)
 
 Installation
 ------
