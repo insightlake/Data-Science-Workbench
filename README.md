@@ -23,17 +23,26 @@ Data ingestion, transformation and exploration
 Model & notebook building and visualization
 Compute resource allocation
 Monitoring, devops etc
+## Data Location
 
-## Data Exploration
- Data
+<img style="width:100%;" src="images/data location/data-location.png">
+
+## Data Store
+
+<img style="width:100%;" src="images/data store/data-store.png">
+
+
+## Data Explorer
+
+ ### Data
 
 <img style="width:100%;" src="images/data-tab/explore-data.png">
 
-Data Profile
+### Data Profile
 
 <img style="width:100%;" src="images/data-tab/data-profile-view.png">
 
-Pivot Table
+### Pivot Table
 
 <img style="width:100%;" src="images/data-tab/pivot-data.png">
 
@@ -101,55 +110,55 @@ Normal
 Triangular
 Uniform
 
-Model Use Cases
+## Model Use Cases
 Data science workbench allows users to build models using interactive UI. Users can build different use case driven models, train, validate and monitor their performance. Following are the use cases.
 
-
-
-Segmentation
+### Segmentation
 
 Users can build segmentation models to segregate input data in different segments/clusters. For example they can build customer segments based on their purchase patterns etc.
 
-Classification
+### Classification
 
 Users can build classification use cases like identifying a transaction as fraud or not fraud.
 
 <img style="width:100%;" src="images/classify/data-classification/data-profile.png">
 
 
-Prediction
+### Prediction
 
 Users can build prediction models utilizing varients of time series models. They can predict values, score transactions.
 
-Voice
+### Voice
 
 Users can build new acoustic or language models or adapt with new data for speech recognition.
 
 <img style="width:100%;" src="images/classify/voice-classification/voice-classification.png">
 
-
-Images
+### Images
 
 Workbench allows users to classify images and extract text.
 
 <img style="width:100%;" src="images/classify/image/image-classification.png">
 
-Video
+### Video
 
 Users can perform video classification and extract relevant information.
 
 <img style="width:100%;" src="images/classify/video/video-classification.png">
 
-Playing Video
-
 <img style="width:100%;" src="images/classify/video/playing-video.png">
 
-Text
+### Text
 
 Users can perform text classification, summarization and extract entities.
 
 <img style="width:100%;" src="images/classify/text-classification/text-profile.png">
 
+### Content Extractor
+
+<img style="width:100%;" src="images/classify/Content extractor/content-extractor.png">
+
+<img style="width:100%;" src="images/classify/Content extractor/content-extractor-rules.png">
 
 ## Document
 
@@ -173,14 +182,17 @@ Text Highligting
 
 <img style="width:100%;" src="images/documents/text-search-highlight.png">
 
-
-## Classification
-
-## Entity Extraction
-
 ## Model Training
 
+<img style="width:100%;" src="images/model/models.png">
+
 ## Model Services
+
+<img style="width:100%;" src="images/model service/model-service.png">
+
+## Environment
+
+<img style="width:100%;" src="images/environment/environments.png">
 
 ## GPU Cluster
 InsightLake workbench allows data scientists to build and run models on GPU clusters. AWS AMIs could be used to setup a cluster very easily. With the power of GPUs complex multi layer/high compute deep learning models can be effectively run on GPU clusters. Two options are provided:
